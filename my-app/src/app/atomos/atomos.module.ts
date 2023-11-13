@@ -18,6 +18,10 @@ import { CursoContenedorComponent } from './curso-contenedor/curso-contenedor.co
   ],
   imports: [
     CommonModule
+  ],
+  exports: [
+    BotonComponent
   ]
+
 })
 export class AtomosModule { }

@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./boton.component.css']
 })
 export class BotonComponent {
+ 
 
 }
