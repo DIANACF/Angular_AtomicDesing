@@ -20,7 +20,10 @@ import { CursoContenedorComponent } from './curso-contenedor/curso-contenedor.co
     CommonModule
   ],
   exports: [
-    BotonComponent
+    BotonComponent,
+    CursoParrafoComponent,
+    CursoTituloComponent,
+    TituloComponent
   ]
 
 })
