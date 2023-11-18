@@ -1,8 +1,9 @@
 h2 {
     color: white;
-    background-color: blueviolet;
+    background-color: #6553D6;
     position: absolute;
-    top: 0;
-    left: 0;
-    margin: 10px;
+    top: 20px;
+    left: 20px;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }

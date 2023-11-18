@@ -5,6 +5,9 @@ import { TituloComponent } from './titulo/titulo.component';
 import { CursoTituloComponent } from './curso-titulo/curso-titulo.component';
 import { CursoParrafoComponent } from './curso-parrafo/curso-parrafo.component';
 import { CursoContenedorComponent } from './curso-contenedor/curso-contenedor.component';
+import { BtnMisCursosComponent } from './btn-mis-cursos/btn-mis-cursos.component';
+import { BarraProgresoComponent } from './barra-progreso/barra-progreso.component';
+import { AvanceCursoParrComponent } from './avance-curso-parr/avance-curso-parr.component';
 
 
 
@@ -14,7 +17,10 @@ import { CursoContenedorComponent } from './curso-contenedor/curso-contenedor.co
     TituloComponent,
     CursoTituloComponent,
     CursoParrafoComponent,
-    CursoContenedorComponent
+    CursoContenedorComponent,
+    BtnMisCursosComponent,
+    BarraProgresoComponent,
+    AvanceCursoParrComponent
   ],
   imports: [
     CommonModule
@@ -23,7 +29,12 @@ import { CursoContenedorComponent } from './curso-contenedor/curso-contenedor.co
     BotonComponent,
     CursoParrafoComponent,
     CursoTituloComponent,
-    TituloComponent
+    TituloComponent,
+    CursoContenedorComponent,
+    BtnMisCursosComponent,
+    BarraProgresoComponent,
+    AvanceCursoParrComponent
+    
   ]
 
 })

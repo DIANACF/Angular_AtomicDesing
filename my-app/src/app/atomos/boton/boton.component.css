@@ -1,8 +1,16 @@
 button {
-    border-radius: 15px;
+    border-radius: 10px;
+    border: none;
     color: white;
     text-align: center;
     background-color:blue;
-    padding: 15px 32px;
-    margin: 4px 2px;
+    padding: 5px 32px;
+    margin: 20px 2px;
+}
+
+button:hover{
+    
+    border-radius: 10px solid blue;
+    color: blue;
+    background-color: transparent;
 }
