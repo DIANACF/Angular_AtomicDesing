@@ -1,16 +1,24 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { AtomosModule } from '../atomos/atomos.module';
-import { MoleculasModule } from '../moleculas/moleculas.module';
+import {TemplatesModule} from '../templates/templates.module'
+import { PageInicioComponent } from './page-inicio/page-inicio.component';
+import { PageAvanceCursosComponent } from './page-avance-cursos/page-avance-cursos.component';
 
 
 
 @NgModule({
-  declarations: [],
+  declarations: [
+    PageInicioComponent,
+    PageAvanceCursosComponent
+  ],
   imports: [
     CommonModule,
-    AtomosModule,
-    MoleculasModule
+    TemplatesModule
+    
+  ],
+  exports:[
+    PageInicioComponent,
+    PageAvanceCursosComponent
   ]
   
  
